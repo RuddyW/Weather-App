@@ -126,6 +126,8 @@ function fetchWeather() {
         }
       }
     });
+
+    searchInput.blur();
 }
 
 // Event listener for the click event on the search button
