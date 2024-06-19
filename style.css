@@ -65,6 +65,8 @@ body{
   font-weight: 500;
   text-transform: uppercase;
   padding: 0 48px 0 42px;
+
+  -webkit-tap-highlight-color: transparent;
 }
 
 .search-box input::placeholder{
@@ -84,6 +86,8 @@ body{
   color: #fff;
   padding: 0 40px 0 5px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
 /*Temperature Details*/
@@ -258,3 +262,6 @@ body{
 }
 
 /*****************Media Query Section*****************/
+@media (max-width: 768px){
+
+}
