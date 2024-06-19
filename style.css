@@ -263,5 +263,10 @@ body{
 
 /*****************Media Query Section*****************/
 @media (max-width: 768px){
-
+  .container{
+    width: 85%;
+    min-height: 90%;
+    align-items: center;
+    justify-content: center;
+  }
 }
